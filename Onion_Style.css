@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #162027;
+    padding: 1rem 8rem;
+    z-index: 1000;
+    font-size: 1.5rem;
+}
+
+
+.navbar .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#navbarSupportedContent>button:hover {
+    background: #ffffff;
+    color: #162027;
+    border: none;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    color: #ffffff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover {
+    color: green;
+}
+
+#navbarSupportedContent>button {
+    background: green;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 25px;
+    border: white;
+}
+
+
+.mid {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mid .video {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mid .hero {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    flex-direction: row;
+}
+
+.mid .hero h {
+    color: #ffffff;
+}
+
+.mid .hero p {
+    color: #ffffff;
+    width: 55%;
+    font-size: 1.8rem;
+    letter-spacing: 0.2px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.mid .hero a {
+    background: green;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 25px;
+    border: white;
+    text-decoration: none;
+}
+
+.mid .hero a:hover {
+    background: #ffffff;
+    color: #162027
+}
+
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+
+.about .text h2 {
+    color: green;
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+
+}
+
+.about .text p {
+    font-size: 1.2rem;
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+.about .text a {
+    background: green;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 25px;
+    border: white;
+    text-decoration: none;
+}
+
+.about .text a:hover {
+    background: #ffffff;
+    color: rgb(20, 30, 59)
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text h6 {
+    color: #162027;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.about .text h2 {
+    color: green;
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+}
+
+.about .text a {
+    background: green;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 25px;
+    border: white;
+    text-decoration: none;
+}
+
+.about .text a:hover {
+    background: #ffffff;
+    color: rgb(20, 30, 59);
+}
+
+.discovery {
+    background-color: #162027;
+}
+
+.discovery .text h5 {
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+
+.discovery .text h2 {
+    color: green;
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+}
+
+.discovery .text p {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.discovery .text a {
+    background: green;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 25px;
+    border: white;
+    text-decoration: none;
+}
+
+.discovery .text a:hover {
+    background: #ffffff;
+    color: #162027;
+}
+
+
+.service {
+    background-color: #ffffff;
+}
+
+.service .one {
+    background-color: #162027;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 0rem;
+    border-radius: 20px;
+}
+
+.service .one h5 {
+    color: green;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.service .one h6 {
+    color: yellow;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+.service .one dl {
+    color: white; 
+    /* float: left; */ 
+    justify-content: center;
+    align-items: center;
+}
+
+ .service .one dl dt {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+
+.service .one p {
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.sign {
+    background-color: #162027;
+}
+
+.sign .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.sign .text h6 {
+    color: white;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.sign .text h2 {
+    color: green;
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+}
+
+.sign .text a {
+    background: green;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0.6rem 1.4rem;
+    border-radius: 25px;
+    border: white;
+    text-decoration: none;
+}
+
+.sign .text a:hover {
+    background: #ffffff;
+    color: #162027;
+}
+
+.sign .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.sign .text h6 {
+    color: #162027;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.sign .text h2 {
+    color: green;
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 0.5px;
+}
+
+.sign .text a {
+    background: green;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 25px;
+    border: white;
+    text-decoration: none;
+}
+
+.sign .text a:hover {
+    background: #ffffff;
+    color: #162027;
+}
+
+body>footer {
+    background-color: #162027;
+    color: #ffffff;
+}
+
+body>footer a {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 988px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    #navbarSupportedContent>ul>li:nth-child(n)>a {
+        padding: 1.1 1.1rem;
+    }
+
+    .mid .hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .mid .hero p {
+        font-size: 1rem;
+    }
+}
